@@ -78,4 +78,4 @@ ADD tests/ tests/
 RUN LAMBDA_EXECUTOR=local make test
 
 ## PERSO :
-CMD localstack start --host
+#CMD localstack start --host
