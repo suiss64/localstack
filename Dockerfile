@@ -76,3 +76,6 @@ RUN mkdir -p /.npm && \
 # run tests (to verify the build before pushing the image)
 ADD tests/ tests/
 RUN LAMBDA_EXECUTOR=local make test
+
+## PERSO :
+CMD localstack start --host
